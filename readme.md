@@ -1,18 +1,24 @@
-# Aplikasi Galeri Foto
+# Photo Gallery Application
 
-Aplikasi Galeri Foto adalah aplikasi mobile yang memungkinkan pengguna untuk melihat, mengambil, mengelola, dan menyimpan foto-foto mereka dengan mudah dan intuitif.
+The Photo Gallery Application is a mobile app that allows users to easily and intuitively view, capture, manage, and save their photos.
 
-## Fitur Utama
+<div align="center">
+   <img src="https://i.ibb.co.com/D91kBdK/Whats-App-Image-2024-07-18-at-15-02-41.jpg" alt="App Screenshot" width="250" >
+   <img src="https://i.ibb.co.com/VqDps3h/Whats-App-Image-2024-07-18-at-15-02-42.jpg" alt="App Screenshot" width="250" >
+   <img src="https://i.ibb.co.com/Bgy23N0/Whats-App-Image-2024-07-18-at-15-02-41-1.jpg" alt="App Screenshot" width="250">
+</div>
 
-- 📸 Pengambilan foto menggunakan kamera perangkat
-- 🖼️ Tampilan galeri foto dalam bentuk grid
-- ✅ Pemilihan multi-foto dengan gestur
-- 🗑️ Penghapusan foto-foto yang dipilih
-- 💾 Penyimpanan foto ke galeri perangkat
-- 🔍 Tampilan foto layar penuh
-- 📊 Bottom sheet untuk opsi tambahan
+## Key Features
 
-## Teknologi yang Digunakan
+- 📸 Capture photos using the device camera
+- 🖼️ Display photo gallery in a grid layout
+- ✅ Multi-photo selection with gestures
+- 🗑️ Delete selected photos
+- 💾 Save photos to the device gallery
+- 🔍 Full-screen photo view
+- 📊 Bottom sheet for additional options
+
+## Technologies Used
 
 - React Native
 - Expo
@@ -25,26 +31,40 @@ Aplikasi Galeri Foto adalah aplikasi mobile yang memungkinkan pengguna untuk mel
 - expo-media-library
 - expo-haptics
 
-## Instalasi
+## Installation
 
-1. Pastikan Anda telah menginstal Node.js dan Expo CLI di sistem Anda.
-2. Clone repositori ini: git clone https://github.com/username/aplikasi-galeri-foto.git
-3. Masuk ke direktori proyek:
-4. Instal dependensi:
-5. Jalankan aplikasi:
+To get started with this project, follow these steps:
 
-## Penggunaan
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ellfarnaz/SimplePhotoGallery.git
+   ```
+2. Change into the project directory:
+   ```bash
+   cd SimplePhotoGallery
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the Expo project:
+   ```bash
+   npx expo start
+   ```
 
-- Buka aplikasi untuk melihat galeri foto Anda.
-- Tekan tombol kamera untuk mengambil foto baru.
-- Tekan lama pada foto untuk memulai mode pemilihan.
-- Gunakan gestur untuk memilih beberapa foto sekaligus.
-- Gunakan opsi di bottom sheet untuk menghapus atau menyimpan foto yang dipilih.
-- Tekan foto untuk melihatnya dalam mode layar penuh.
 
-## Struktur Proyek
+## Usage
+- Open the app to view your photo gallery.
+- Tap the camera button to take a new photo.
+- Long press on a photo to enter selection mode.
+- Use gestures to select multiple photos at once.
+- Use options in the bottom sheet to delete or save selected photos.
+- Tap on a photo to view it in full-screen mode.
 
-aplikasi-galeri-foto/
+## Project Structure
+
+```plaintext
+SimplePhotoGallery/
 ├── App.js
 ├── screens/
 │ ├── HomeScreen.js
@@ -60,20 +80,19 @@ aplikasi-galeri-foto/
 ├── contexts/
 │ └── PhotoContext.js
 └── README.md
+```
 
-## Komponen Utama
+## Key Components
 
-1. App.js: Komponen utama yang mengatur navigasi.
-2. HomeScreen.js: Layar utama yang menampilkan galeri foto.
-3. CameraScreen.js: Layar untuk mengambil foto baru.
-4. FullScreenPhotoScreen.js: Layar untuk menampilkan foto dalam ukuran penuh.
-5. PhotoGrid.js: Komponen untuk menampilkan grid foto.
-6. usePhotoManagement.js: Custom hook untuk logika manajemen foto.
+1. App.js: Main component that manages navigation.
+2. HomeScreen.js: Main screen that displays the photo gallery.
+3. CameraScreen.js: Screen for taking new photos.
+4. FullScreenPhotoScreen.js: Screen for displaying photos in full size.
+5. PhotoGrid.js: Component for displaying the photo grid.
+6. usePhotoManagement.js: Custom hook for photo management logic.
 
-## Kontribusi
+## Contribution
 
-Kontribusi selalu diterima dengan baik. Untuk perubahan besar, harap buka issue terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
+Contributions are always welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Lisensi
 
-[MIT](https://choosealicense.com/licenses/mit/)
